@@ -160,12 +160,8 @@ Before you begin, ensure you have the following installed on your machine:
    pip install git+https://github.com/openai/swarm.git
    ```
 
-5. **Set Up Environment Variables**
-   Ensure you set your OpenAI API key as an environment variable. You can do this by adding the following line to your `.env` file or directly in your terminal:
-   ```bash
-   export OPENAI_API_KEY="your_openai_api_key"
-   ```
-   Replace `your_openai_api_key` with your actual OpenAI API key.
+5. **Set Up Your OpenAI API KEy**
+   Ensure you have an OpenAI API Key and set it in the code.
 
 6. **Prepare Your Data**
    Place your sales data CSV file (e.g., `ai first sales data - sales.csv`) in the `day6` directory. Ensure the file path in the code matches the location of your data file.
