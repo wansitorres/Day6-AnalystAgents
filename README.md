@@ -174,6 +174,3 @@ Before you begin, ensure you have the following installed on your machine:
 
 8. **View Results**
    After running the script, the results of the analysis will be printed in the terminal, and visualizations will be saved in the `visualizations` directory.
-- Revitalize email marketing campaigns to improve open rates.
-- Focus marketing efforts on weekends and evenings when user activity is highest.
-- Consider product bundling strategies to maximize profit margins, especially incorporating Products X and Y.
