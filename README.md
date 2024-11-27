@@ -120,10 +120,68 @@ The Insight Agent synthesizes the outputs from the previous agents to generate c
     - Profitability analysis insights.
 - **Actionable Recommendations**: 
   - Based on the aggregated insights, provides actionable recommendations to improve overall performance and decision-making.
+ 
+# Setup Instructions
+
+## Prerequisites
+Before you begin, ensure you have the following installed on your machine:
+- **Python**: Version 3.6 or higher
+- **pip**: Python package installer
+
+## Installation Steps
+
+1. **Clone the Repository**
+   Open your terminal or command prompt and clone the repository using the following command:
+   ```bash
+   git clone https://github.com/wansitorres/Day6-AnalystAgents.git
+   cd Day6-AnalystAgents
+   ```
+
+2. **Create a Virtual Environment**
+   It is recommended to create a virtual environment to manage dependencies. You can create one using the following command:
+   ```bash
+   python -m venv .venv
+   ```
+
+3. **Activate the Virtual Environment**
+   - On **Windows**:
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - On **macOS/Linux**:
+     ```bash
+     source .venv/bin/activate
+     ```
+
+4. **Install Required Packages**
+   Install the necessary packages using pip. You can do this by running:
+   ```bash
+   pip install pandas numpy matplotlib seaborn
+   pip install git+https://github.com/openai/swarm.git
+   ```
+
+5. **Set Up Environment Variables**
+   Ensure you set your OpenAI API key as an environment variable. You can do this by adding the following line to your `.env` file or directly in your terminal:
+   ```bash
+   export OPENAI_API_KEY="your_openai_api_key"
+   ```
+   Replace `your_openai_api_key` with your actual OpenAI API key.
+
+6. **Prepare Your Data**
+   Place your sales data CSV file (e.g., `ai first sales data - sales.csv`) in the `day6` directory. Ensure the file path in the code matches the location of your data file.
+
+7. **Run the Analysis**
+   You can now run the analysis script. Execute the following command in your terminal:
+   ```bash
+   python day6/v2.py
+   ```
+
+8. **View Results**
+   After running the script, the results of the analysis will be printed in the terminal, and visualizations will be saved in the `visualizations` directory.
 
 # Sample Output
 
-#### Below is the unedited output of the project 
+### Below is the unedited output of the project:
 
 Data Quality Analysis Results:
 The analysis of the dataset reveals the following data quality metrics:
