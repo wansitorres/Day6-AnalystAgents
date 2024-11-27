@@ -11,7 +11,6 @@ Name: data_quality_agent
 Model: gpt-4o-mini
 
 Description:
-
 The Data Quality Agent is responsible for analyzing the dataset for quality metrics. It performs data cleaning operations, such as removing missing values and duplicates, and ensures that the dataset is ready for further analysis. The agent generates a report summarizing key data quality metrics, including the total number of rows, columns, missing values, and duplicates. This agent plays a crucial role in ensuring the integrity of the data before any analytical processes are conducted.
 ---
 2. Channel Growth Agent
@@ -21,7 +20,6 @@ Name: channel_growth_agent
 Model: gpt-4o-mini
 
 Description:
-
 The Channel Growth Agent analyzes the performance of various traffic sources (channels) in terms of revenue generation, ad spend, and transaction volumes. It provides insights into which channels are performing well and which are underperforming. The agent also offers actionable recommendations to optimize high-performing channels and improve overall marketing strategies. This agent is essential for understanding the effectiveness of different marketing channels and guiding resource allocation.
 ---
 3. User Behavior Agent
@@ -31,7 +29,6 @@ Name: user_behavior_agent
 Model: gpt-4o-mini
 
 Description:
-
 The User Behavior Agent focuses on analyzing user behavior patterns across different devices. It evaluates metrics such as transaction volumes, conversion rates, and average order values for mobile and PC users. The agent provides insights into how users interact with the platform and identifies opportunities for enhancing user experience. Recommendations from this agent aim to improve engagement and conversion rates by tailoring strategies to user behavior.
 ---
 4. Profitability Agent
@@ -41,7 +38,6 @@ Name: profitability_agent
 Model: gpt-4o-mini
 
 Description:
-
 The Profitability Agent assesses the profitability of marketing efforts by analyzing return on investment (ROI) metrics. It calculates total revenue, total ad spend, and ROI by source, identifying which channels are yielding positive returns and which are not. The agent provides insights into the financial performance of advertising campaigns and offers recommendations for optimizing ad spend. This agent is critical for ensuring that marketing investments are effective and contribute positively to the business's bottom line.
 ---
 5. Insight Agent
@@ -51,7 +47,6 @@ Name: insight_agent
 Model: gpt-4o-mini
 
 Description:
-
 The Insight Agent synthesizes the outputs from the previous agents to generate comprehensive final insights. It combines data quality analysis, channel performance insights, user behavior analysis, and profitability metrics into a cohesive summary. The agent provides actionable recommendations based on the aggregated insights, helping stakeholders make informed decisions. This agent serves as the final step in the analysis process, ensuring that all relevant information is considered for strategic planning.
 
 # Analysis Methodology Per Agent
